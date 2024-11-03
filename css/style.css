@@ -728,7 +728,7 @@ header .container {
 
 @media only screen and (max-width: 992px) {
   .banner {
-    margin-top: 68px;
+    margin-top: 72px;
   }
 }
 
@@ -759,7 +759,7 @@ header .container {
 
 @media only screen and (max-width: 992px) {
   .banner .container {
-    min-height: calc(100vh - 68px);
+    min-height: calc(100vh - 72px);
   }
 }
 
@@ -957,6 +957,7 @@ header .container {
 @media only screen and (max-width: 768px) {
   .banner-btn-wrap {
     margin: 0 auto;
+    margin-bottom: 15px;
   }
 }
 
@@ -974,6 +975,13 @@ header .container {
   margin-bottom: 8px;
 }
 
+@media only screen and (max-width: 768px) {
+  .banner-button:link,
+  .banner-button:visited {
+    margin-bottom: 0;
+  }
+}
+
 .banner-title {
   font-size: 18px;
   font-weight: 600;
@@ -984,6 +992,12 @@ header .container {
 @media only screen and (max-width: 1024px) {
   .banner-title {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-title {
+    display: none;
   }
 }
 

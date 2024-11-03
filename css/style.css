@@ -3760,8 +3760,7 @@ footer .container::before {
   top: 125px;
   left: 25px;
   right: 25px;
-  /* background-color: var(--color-white-2); */
-  background-color: tan;
+  background-color: var(--color-white-2);
   z-index: -1;
 }
 

@@ -574,6 +574,19 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/slick.min.js"></script>
 
+        <!-- SIDE BUTTON -->
+        <script>
+          $(document).ready(function () {
+            $(window).scroll(function () {
+              if ($(this).scrollTop() > 300) {
+                $(".side-button").fadeIn();
+              } else {
+                $(".side-button").fadeOut();
+              }
+            });
+          });
+        </script>
+
     <!-- ATTORNEY-AWARD SLIDER -->
 
     <script>

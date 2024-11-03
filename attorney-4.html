@@ -566,13 +566,27 @@
       </div>
     </footer>
 
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
-
     <div class="side-button">
       <a href="#">LIVE CHAT</a>
       <a href="#">FREE CASE REVIEW</a>
     </div>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+        <!-- SIDE BUTTON -->
+        <script>
+          $(document).ready(function () {
+            $(window).scroll(function () {
+              if ($(this).scrollTop() > 300) {
+                $(".side-button").fadeIn();
+              } else {
+                $(".side-button").fadeOut();
+              }
+            });
+          });
+        </script>
 
     <!-- ATTORNEY-AWARD SLIDER -->
 

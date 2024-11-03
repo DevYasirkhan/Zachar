@@ -3223,6 +3223,8 @@ footer .container::before {
 
 .consultant {
   padding: 180px 0 67px 0;
+
+  position: relative;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -3240,6 +3242,45 @@ footer .container::before {
 @media only screen and (max-width: 480px) {
   .consultant {
     padding: 100px 0 50px 0;
+  }
+}
+
+.consultant::before {
+  content: "";
+  width: calc(100% - 50px);
+  height: 220px;
+  position: absolute;
+  top: 125px;
+  left: 25px;
+  right: 25px;
+  background-color: var(--color-white-2);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .consultant::before {
+    top: 100px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .consultant::before {
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .consultant::before {
+    top: 75px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .consultant::before {
+    top: 85px;
+    height: 120px;
   }
 }
 
@@ -3795,7 +3836,14 @@ footer .container::before {
 @media only screen and (max-width: 768px) {
   .attorneys::before {
     top: 75px;
-    height: 120px;
+    height: 110px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .attorneys::before {
+    top: 85px;
+    height: 90px;
   }
 }
 
@@ -3952,7 +4000,6 @@ footer .container::before {
   left: 25px;
   right: 25px;
   background-color: var(--color-white-2);
-
   z-index: -1;
 }
 
@@ -3965,7 +4012,7 @@ footer .container::before {
 
 @media only screen and (max-width: 992px) {
   .attorney::before {
-    height: 180px;
+    height: 160px;
   }
 }
 
@@ -3973,6 +4020,13 @@ footer .container::before {
   .attorney::before {
     top: 80px;
     height: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .attorney::before {
+    top: 80px;
+    height: 85px;
   }
 }
 
@@ -4365,7 +4419,6 @@ footer .container::before {
   left: 25px;
   right: 25px;
   background-color: var(--color-white-2);
-
   z-index: -1;
 }
 
@@ -4378,21 +4431,20 @@ footer .container::before {
 
 @media only screen and (max-width: 992px) {
   .testimonials::before {
-    height: 170px;
+    height: 150px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .testimonials::before {
-    top: 75px;
-    height: 140px;
+    top: 85px;
+    height: 110px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .testimonials::before {
-    top: 80px;
-    height: 110px;
+    height: 90px;
   }
 }
 
@@ -4589,6 +4641,7 @@ footer .container::before {
   left: 25px;
   right: 25px;
   background-color: var(--color-white-2);
+
   z-index: -1;
 }
 
@@ -4601,14 +4654,14 @@ footer .container::before {
 
 @media only screen and (max-width: 992px) {
   .result::before {
-    height: 180px;
+    height: 160px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .result::before {
-    top: 75px;
-    height: 140px;
+    top: 85px;
+    height: 110px;
   }
 }
 
@@ -4985,7 +5038,6 @@ footer .container::before {
   left: 10px;
   right: 10px;
   background-color: var(--color-white-2);
-
   z-index: -1;
 }
 
@@ -5005,15 +5057,15 @@ footer .container::before {
 
 @media only screen and (max-width: 768px) {
   .blog::before {
-    top: 100px;
+    top: 90px;
     height: 100px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .blog::before {
-    top: 80px;
-    height: 100px;
+    top: 85px;
+    height: 80px;
   }
 }
 
@@ -5232,7 +5284,8 @@ footer .container::before {
   top: 125px;
   left: 25px;
   right: 25px;
-  background-color: var(--color-white-2);
+  /* background-color: var(--color-white-2); */
+  background-color: tan;
   z-index: -1;
 }
 
@@ -5258,8 +5311,8 @@ footer .container::before {
 
 @media only screen and (max-width: 480px) {
   .blog2::before {
-    top: 90px;
-    height: 100px;
+    top: 92px;
+    height: 90px;
   }
 }
 
@@ -5601,6 +5654,7 @@ footer .container::before {
   left: 12px;
   right: 12px;
   background-color: var(--color-white-2);
+
   z-index: -1;
 }
 
@@ -5619,8 +5673,15 @@ footer .container::before {
 
 @media only screen and (max-width: 768px) {
   .award::before {
-    top: 70px;
-    height: 140px;
+    top: 75px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .award::before {
+    top: 85px;
+    height: 100px;
   }
 }
 
@@ -5800,6 +5861,7 @@ footer .container::before {
   left: 12px;
   right: 12px;
   background-color: var(--color-white-2);
+
   z-index: -1;
 }
 
@@ -5819,7 +5881,14 @@ footer .container::before {
 @media only screen and (max-width: 768px) {
   .library::before {
     top: 70px;
-    height: 140px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .library::before {
+    top: 80px;
+    height: 90px;
   }
 }
 
@@ -6326,39 +6395,38 @@ footer .container::before {
 .thanks::before {
   content: "";
   width: calc(100% - 50px);
-  height: 180px;
+  height: 200px;
   position: absolute;
   top: 125px;
   left: 25px;
   right: 25px;
   background-color: var(--color-white-2);
+
   z-index: -1;
 }
 
 @media only screen and (max-width: 1200px) {
   .thanks::before {
-    height: 120px;
+    height: 170px;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .thanks::before {
-    top: 120px;
-    height: 120px;
+    top: 110px;
+    height: 160px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .thanks::before {
-    top: 100px;
-    height: 110px;
+    height: 140px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .thanks::before {
-    top: 90px;
-    height: 100px;
+    height: 120px;
   }
 }
 
@@ -6669,6 +6737,13 @@ footer .container::before {
 @media only screen and (max-width: 768px) {
   .thanks-v2 .thanks-description {
     margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .thanks-v2::before {
+    top: 90px;
+    height: 80px;
   }
 }
 

@@ -385,6 +385,7 @@ header .container {
   font-weight: 300;
   text-decoration: none;
   color: var(--color-primary);
+  width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
